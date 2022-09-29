@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 6rem;
+    background-color: #154;
+    line-height: 4rem;
+}
+
+header a {
+    font-size: 1.2vw;
+    margin-left: 1vw;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+@media(min-width:360px) and (max-width:1000px) {
+    header a {
+        font-size: 1rem;
+        margin-left: 1vw;
+        text-decoration: none;
+        color: aliceblue;
+    }
+    header {
+        background-color: tomato;
+    }
+}
