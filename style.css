@@ -102,6 +102,10 @@ header a {
     margin-bottom: 10px;
 }
 
+.direcion h3 a {
+    color: #154;
+}
+
 .pie span {
     line-height: 4px;
 }
