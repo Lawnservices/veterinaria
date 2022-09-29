@@ -64,7 +64,7 @@ header a {
 .imagenes {
     margin-top: 100px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 260px;
     padding: 20px;
     grid-gap: 10px;
@@ -84,10 +84,6 @@ header a {
     border-radius: 0.2cm;
     aspect-ratio: 2/1;
     max-inline-size: 100%;
-}
-
-.imagenes:nth-child(2) {
-    grid-column-start: span 2;
 }
 
 .pie {
@@ -135,5 +131,14 @@ header a {
     }
     .imagenes:nth-child(1) {
         grid-row-start: span 3;
+    }
+    .imagenes {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 260px;
+        padding: 20px;
+        grid-gap: 10px;
+        clear: both;
     }
 }
